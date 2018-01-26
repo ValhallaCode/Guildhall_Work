@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<Entities>
+	<Character name="Jotaro Kujo" char="@" color="244, 199, 0,255" faction="gyro" start="">
+		<Stats strength="2,2" defense="4,4" accuracy="3,5" health="10,10" evasion="1,1" toughness="2,3" reflexes="2,4" range="1,1" view="8,8"/>
+	</Character>
+	<Character name="Dio" char="D" color="255,0,0,255" faction="anemone" start="Wander">
+		<Stats strength="0,0" defense="1,1" accuracy="2,2" health="10,10" evasion="1,1" toughness="1,1" reflexes="2,3" range="1,1" view="4,4"/>
+		<Behavior>
+			<Wander/>
+			<Pursue/>
+			<Flee turns="4"/>
+			<Attack/>
+		</Behavior>
+	</Character>
+</Entities>

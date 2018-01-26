@@ -1,0 +1,35 @@
+﻿  Adventure.cpp
+  App.cpp
+  Attack.cpp
+  Behavior.cpp
+  CellularAutomata.cpp
+  Character.cpp
+  Entity.cpp
+  Flee.cpp
+  Game.cpp
+  GameCommons.cpp
+  Interactable.cpp
+  Main_Win32.cpp
+  Map.cpp
+  MapDescription.cpp
+  MapFromFile.cpp
+  MapGenerator.cpp
+Map.cpp(354): warning C4018: '>=': signed/unsigned mismatch
+  NPC.cpp
+  PathGenerator.cpp
+  PerlinNoiseGenerator.cpp
+  Player.cpp
+  Pursue.cpp
+  RoomAndCorridor.cpp
+  Tile.cpp
+  Wander.cpp
+  World.cpp
+  Generating code
+  465 of 7490 functions ( 6.2%) were compiled, the rest were copied from previous compilation.
+    406 functions were new in current compilation
+    711 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Game.vcxproj -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Temporary\Roguelike_Win32_Release\Roguelike.exe
+  Game.vcxproj -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Temporary\Roguelike_Win32_Release\Roguelike.pdb (Full PDB)
+  C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Temporary\Roguelike_Win32_Release\Roguelike.exe -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Run_Win32\Roguelike.exe
+  1 File(s) copied

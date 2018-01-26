@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<Loot>
+	<Loot_Type type="Dio">
+		<Item name="Club" weight="2,3"/>
+		<Item name="Leather Boots" weight="1,2"/>
+	</Loot_Type>
+</Loot>

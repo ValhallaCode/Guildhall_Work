@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<Maps>
+	<Map name="Village" dimensions="32,18" initTile="Grass" edgeTile="Grass">
+		<FromFile dimensions="4,3" filePath="Data/Images/testStruct.png" xOffset="5,5" yOffset="3,3" turn90="1,1" isMirrored="true">
+			<Legend color="0,38,255,255" tile="Water"/>
+			<Legend color="160,160,160,255" tile="Ground"/>
+			<Legend color="100,100,100,255" tile="Stone"/>
+			<Legend color="0,127,14,255" tile="Grass"/>
+		</FromFile>
+		<RoomAndCorridor maxRooms="4" widthRange="5,5" heightRange="5,5" overlap="false" roomTries="100">
+			<TileInfo wallTile="Stone" floorTile="Ground" pathTile="Ground"/>
+		</RoomAndCorridor>
+		<CellularAutomata passes="5">
+			<Grass compareTile="Ground" replaceWith="Ground" min="3" max="8" chance="0.5" />
+		</CellularAutomata>
+		<PerlinNoise scale="1.0" numOctaves="1" persistence="0.5" octaveScale="2.0">
+			<Stone replaceWith="Ground" range="0.3,0.8" chance="0.5" />
+		</PerlinNoise>
+	</Map>
+	<Map name="Island" dimensions="32,18" initTile="Water" edgeTile="Water">
+		<RoomAndCorridor maxRooms="4" widthRange="5,5" heightRange="5,5" overlap="false" roomTries="100">
+			<TileInfo wallTile="Water" floorTile="Ground" pathTile="Ground"/>
+		</RoomAndCorridor>
+		<CellularAutomata passes="5">
+			<Grass compareTile="Ground" replaceWith="Ground" min="3" max="8" chance="0.5" />
+		</CellularAutomata>
+		<PerlinNoise scale="1.0" numOctaves="1" persistence="0.5" octaveScale="2.0">
+			<Stone replaceWith="Ground" range="0.3,0.8" chance="0.5" />
+		</PerlinNoise>
+	</Map>
+</Maps>

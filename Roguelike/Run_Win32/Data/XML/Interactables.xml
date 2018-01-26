@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<Interactables>
+	<Interactable name="Torch" isSolid="false" charColor="255,128,0,255" char="v" color="255,255,255,0">
+		<Light isLight="true" value="10"/>
+		<Stats strength="0,2" defense="0,1" accuracy="0,0" health="1,1" evasion="0,0" toughness="0,1" reflexes="0,0" range="0,0" view="0,0"/>
+	</Interactable>
+	<Interactable name="Exit" isSolid="false" charColor="255,255,255,255" char=">" color="255,221,0,255">
+		<Exit isExit="true" tile="Ground"/>
+		<Stats strength="0,0" defense="0,0" accuracy="0,0" health="1,1" evasion="0,0" toughness="0,0" reflexes="0,0" range="0,0" view="0,0"/>
+	</Interactable>
+</Interactables>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<Items>
+	<Item name="Sword" type="weapon" char="^" charColor="255,255,255,255">
+		<Stats strength="1,2" defense="0,0" accuracy="0,0" health="0,0" evasion="0,0" toughness="0,0" reflexes="0,0" range="1,1" view="0,0"/>
+	</Item>
+	<Item name="Plate Armor" type="body" char="[" charColor="255,255,255,255">
+		<Stats strength="0,0" defense="1,2" accuracy="0,0" health="0,0" evasion="-1,-1" toughness="1,1" reflexes="0,0" range="0,0" view="0,0"/>
+	</Item>
+	<Item name="Leather Boots" type="legs" char=":" charColor="255,255,255,255">
+		<Stats strength="0,0" defense="0,0" accuracy="0,0" health="0,0" evasion="0,2" toughness="0,0" reflexes="1,2" range="0,0" view="0,0"/>
+	</Item>
+	<Item name="Club" type="weapon" char="^" charColor="255,255,255,255">
+		<Stats strength="1,3" defense="0,0" accuracy="0,0" health="0,0" evasion="0,0" toughness="0,0" reflexes="0,0" range="1,2" view="0,0"/>
+	</Item>
+</Items>

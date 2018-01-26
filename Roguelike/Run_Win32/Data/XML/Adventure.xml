@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Adventures>
+	<Adventure name="Jojo" title="Kill Dio" player="Jotaro Kujo">
+		<StartConditions startMap="The Village" startTileType="Grass"/>
+		<VictoryConditions haveItems="" killTarget="Dio"/>
+		<Map name="The Village" mapDescription="Village" light="5">
+			<Item name="Sword" onTileType="Grass"/>
+			<Exit type="Exit" destinationMap="The Resort" createDestinationFeature="Exit"/>
+			<NPC name="Dio" onTileType="Grass" number="1"/>
+			<Interactable name="Torch" onTileType="Grass" number="15"/>
+		</Map>
+		<Map name="The Resort" mapDescription="Island" light="10">
+		</Map>
+	</Adventure>
+</Adventures>

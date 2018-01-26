@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Protogame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Tile.cpp
+  Game.vcxproj -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Temporary\Roguelike_Win32_Debug\Roguelike.exe
+  Game.vcxproj -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Temporary\Roguelike_Win32_Debug\Roguelike.pdb (Full PDB)
+  C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Temporary\Roguelike_Win32_Debug\Roguelike.exe -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD4\Roguelike\Run_Win32\Roguelike.exe
+  1 File(s) copied

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{7330c378-0bd4-4528-ad62-afe752a46a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behavior">
+      <UniqueIdentifier>{e8b5805b-a7df-420e-aec9-5d96077dd130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Generation">
+      <UniqueIdentifier>{7fa6ee13-2438-4437-babb-d28a80d875b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{937c475c-a841-448b-97c8-450ddd64a43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Descriptions">
+      <UniqueIdentifier>{be96877f-87bc-481e-9eed-17a20cecbf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Characters">
+      <UniqueIdentifier>{53c9bcb2-bad3-45fe-a186-9bfa01764230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Generation\Tiles">
+      <UniqueIdentifier>{f93d420d-131e-4447-96ae-dad0af2d4b72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommons.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Flee.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Wander.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Pursue.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Map Generation\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDescription.cpp">
+      <Filter>Map Generation\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Stat.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entities\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Entities\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Entities\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDescription.cpp">
+      <Filter>Entities\Descriptions</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractableDescription.cpp">
+      <Filter>Entities\Descriptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Interactable.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapFromFile.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomAndCorridor.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDescription.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PathGenerator.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="CellularAutomata.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDescription.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoiseGenerator.cpp">
+      <Filter>Map Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Adventure.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommons.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="App.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Interactable.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.hpp">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Flee.hpp">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Wander.hpp">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Pursue.hpp">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFromFile.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomAndCorridor.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Stat.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.hpp">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDescription.hpp">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDescription.hpp">
+      <Filter>Entities\Descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractableDescription.hpp">
+      <Filter>Entities\Descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.hpp">
+      <Filter>Entities\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.hpp">
+      <Filter>Entities\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Entities\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Map Generation\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDescription.hpp">
+      <Filter>Map Generation\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="PathGenerator.hpp">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.hpp">
+      <Filter>Behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="CellularAutomata.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDescription.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoiseGenerator.hpp">
+      <Filter>Map Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventure.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

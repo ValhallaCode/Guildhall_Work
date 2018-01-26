@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<TileDescriptions>
+	<TileDescription name="Grass" isOpaque="false" isSolid="false" charColor="51,255,51,255" char='"' color="39,165,39,255">
+		<Additional char="'" color="30,188,22,255" charColor="26,96,26,255"/>
+	</TileDescription>
+	<TileDescription name="Stone" isOpaque="true" isSolid="true" charColor="43,43,43,255" char='#' color="71,64,64,255">
+		<Additional char="#" color="89,85,85,255" charColor="66,59,59,255"/>
+	</TileDescription>
+	<TileDescription name="Ground" isOpaque="false" isSolid="false" charColor="111,111,111,255" char='.' color="188,188,188,255">
+		<Additional char="*" color="165,165,165,255" charColor="112,138,144,255"/>
+	</TileDescription>
+	<TileDescription name="Water" isOpaque="false" isSolid="true" charColor="0,147,254,255" char='~' color="0,65,254,255">
+		<Additional char="," color="53,105,255,255" charColor="0,65,254,255"/>
+	</TileDescription>
+</TileDescriptions>

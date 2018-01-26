@@ -1,0 +1,8 @@
+﻿  App.cpp
+  Bullet.cpp
+  Game.cpp
+c:\guldhall\p4\c26\students\dfansler\projects\sd6\networking\code\game\game.cpp(1468): warning C4018: '>=': signed/unsigned mismatch
+  Game.vcxproj -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD6\Networking\Temporary\Networking_Win32_Debug\Networking.exe
+  Game.vcxproj -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD6\Networking\Temporary\Networking_Win32_Debug\Networking.pdb (Full PDB)
+  C:\Guldhall\p4\c26\Students\dfansler\Projects\SD6\Networking\Temporary\Networking_Win32_Debug\Networking.exe -> C:\Guldhall\p4\c26\Students\dfansler\Projects\SD6\Networking\Run_Win32\Networking.exe
+  1 File(s) copied
